@@ -1,0 +1,1393 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.24
+3 info using node@v0.10.31
+4 verbose node symlink /usr/bin/node
+5 warn package.json angnews@0.0.0 No description
+6 warn package.json angnews@0.0.0 No repository field.
+7 warn package.json angnews@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/home/jccf/workspace/ang-news',
+9 verbose install   [ 'grunt',
+9 verbose install     'grunt-autoprefixer',
+9 verbose install     'grunt-concurrent',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-connect',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-cssmin',
+9 verbose install     'grunt-contrib-htmlmin',
+9 verbose install     'grunt-contrib-imagemin',
+9 verbose install     'grunt-contrib-jshint',
+9 verbose install     'grunt-contrib-uglify',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-filerev',
+9 verbose install     'grunt-google-cdn',
+9 verbose install     'grunt-karma',
+9 verbose install     'grunt-newer',
+9 verbose install     'grunt-ngmin',
+9 verbose install     'grunt-svgmin',
+9 verbose install     'grunt-usemin',
+9 verbose install     'grunt-wiredep',
+9 verbose install     'jshint-stylish',
+9 verbose install     'karma',
+9 verbose install     'karma-jasmine',
+9 verbose install     'karma-phantomjs-launcher',
+9 verbose install     'load-grunt-tasks',
+9 verbose install     'time-grunt' ] ]
+10 info preinstall angnews@0.0.0
+11 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+12 verbose readDependencies using package.json deps
+13 verbose already installed skipping grunt-concurrent@^0.5.0 /home/jccf/workspace/ang-news
+14 verbose already installed skipping grunt-contrib-clean@^0.5.0 /home/jccf/workspace/ang-news
+15 verbose already installed skipping grunt-contrib-concat@^0.4.0 /home/jccf/workspace/ang-news
+16 verbose already installed skipping grunt-contrib-connect@^0.7.1 /home/jccf/workspace/ang-news
+17 verbose already installed skipping grunt-contrib-copy@^0.5.0 /home/jccf/workspace/ang-news
+18 verbose already installed skipping grunt-contrib-cssmin@^0.9.0 /home/jccf/workspace/ang-news
+19 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 /home/jccf/workspace/ang-news
+20 verbose cache add [ 'grunt-contrib-imagemin@^0.7.0', null ]
+21 verbose cache add name=undefined spec="grunt-contrib-imagemin@^0.7.0" args=["grunt-contrib-imagemin@^0.7.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'grunt-contrib-imagemin@^0.7.0',
+22 verbose parsed url   path: 'grunt-contrib-imagemin@^0.7.0',
+22 verbose parsed url   href: 'grunt-contrib-imagemin@^0.7.0' }
+23 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /home/jccf/workspace/ang-news
+24 verbose already installed skipping grunt-contrib-uglify@^0.4.0 /home/jccf/workspace/ang-news
+25 verbose already installed skipping grunt-contrib-watch@^0.6.1 /home/jccf/workspace/ang-news
+26 verbose already installed skipping grunt-filerev@^0.2.1 /home/jccf/workspace/ang-news
+27 verbose already installed skipping grunt-google-cdn@^0.4.0 /home/jccf/workspace/ang-news
+28 verbose already installed skipping grunt-karma@^0.8.3 /home/jccf/workspace/ang-news
+29 verbose already installed skipping grunt-newer@^0.7.0 /home/jccf/workspace/ang-news
+30 verbose cache add [ 'grunt-ngmin@^0.0.3', null ]
+31 verbose cache add name=undefined spec="grunt-ngmin@^0.0.3" args=["grunt-ngmin@^0.0.3",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'grunt-ngmin@^0.0.3',
+32 verbose parsed url   path: 'grunt-ngmin@^0.0.3',
+32 verbose parsed url   href: 'grunt-ngmin@^0.0.3' }
+33 verbose already installed skipping grunt-svgmin@^0.4.0 /home/jccf/workspace/ang-news
+34 verbose already installed skipping grunt-usemin@^2.1.1 /home/jccf/workspace/ang-news
+35 verbose already installed skipping grunt-wiredep@^1.7.0 /home/jccf/workspace/ang-news
+36 verbose already installed skipping jshint-stylish@^0.2.0 /home/jccf/workspace/ang-news
+37 verbose already installed skipping karma@^0.12.22 /home/jccf/workspace/ang-news
+38 verbose cache add name="grunt-contrib-imagemin" spec="^0.7.0" args=["grunt-contrib-imagemin","^0.7.0"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '^0.7.0',
+39 verbose parsed url   path: '^0.7.0',
+39 verbose parsed url   href: '^0.7.0' }
+40 verbose addNamed [ 'grunt-contrib-imagemin', '^0.7.0' ]
+41 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+42 verbose cache add name="grunt-ngmin" spec="^0.0.3" args=["grunt-ngmin","^0.0.3"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '^0.0.3',
+43 verbose parsed url   path: '^0.0.3',
+43 verbose parsed url   href: '^0.0.3' }
+44 verbose addNamed [ 'grunt-ngmin', '^0.0.3' ]
+45 verbose addNamed [ null, '=0.0.3' ]
+46 verbose already installed skipping karma-jasmine@^0.1.5 /home/jccf/workspace/ang-news
+47 verbose already installed skipping karma-phantomjs-launcher@^0.1.4 /home/jccf/workspace/ang-news
+48 verbose already installed skipping load-grunt-tasks@^0.4.0 /home/jccf/workspace/ang-news
+49 silly lockFile 3b24a2ed-grunt-contrib-imagemin-0-7-0 grunt-contrib-imagemin@^0.7.0
+50 verbose lock grunt-contrib-imagemin@^0.7.0 /home/jccf/.npm/3b24a2ed-grunt-contrib-imagemin-0-7-0.lock
+51 silly lockFile 13bbf674-grunt-ngmin-0-0-3 grunt-ngmin@^0.0.3
+52 verbose lock grunt-ngmin@^0.0.3 /home/jccf/.npm/13bbf674-grunt-ngmin-0-0-3.lock
+53 verbose already installed skipping time-grunt@^0.3.1 /home/jccf/workspace/ang-news
+54 verbose already installed skipping grunt@^0.4.5 /home/jccf/workspace/ang-news
+55 silly addNameRange { name: 'grunt-contrib-imagemin',
+55 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+55 silly addNameRange   hasData: false }
+56 verbose already installed skipping grunt-autoprefixer@^0.7.3 /home/jccf/workspace/ang-news
+57 silly addNameRange { name: 'grunt-ngmin', range: '=0.0.3', hasData: false }
+58 verbose request where is /grunt-ngmin
+59 verbose request registry https://registry.npmjs.org/
+60 verbose request id b47a7e6abc9c9dda
+61 verbose url raw /grunt-ngmin
+62 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-ngmin' ]
+63 verbose url resolved https://registry.npmjs.org/grunt-ngmin
+64 verbose request where is https://registry.npmjs.org/grunt-ngmin
+65 info trying registry request attempt 1 at 23:56:07
+66 verbose etag "73ZRYJSRVFLIXUFZ8V6ZPZ5UC"
+67 http GET https://registry.npmjs.org/grunt-ngmin
+68 verbose request where is /grunt-contrib-imagemin
+69 verbose request registry https://registry.npmjs.org/
+70 verbose url raw /grunt-contrib-imagemin
+71 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+72 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+73 verbose request where is https://registry.npmjs.org/grunt-contrib-imagemin
+74 info trying registry request attempt 1 at 23:56:08
+75 verbose etag "2OTHKWP6Q1MANDP7DGL0WM45N"
+76 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+77 http 304 https://registry.npmjs.org/grunt-ngmin
+78 silly registry.get cb [ 304,
+78 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:08 GMT',
+78 silly registry.get     server: 'Apache',
+78 silly registry.get     via: '1.1 varnish',
+78 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:56:08 GMT',
+78 silly registry.get     'cache-control': 'max-age=60',
+78 silly registry.get     etag: '"73ZRYJSRVFLIXUFZ8V6ZPZ5UC"',
+78 silly registry.get     'x-served-by': 'cache-hk92-HKG',
+78 silly registry.get     'x-cache': 'HIT',
+78 silly registry.get     'x-cache-hits': '1',
+78 silly registry.get     'x-timer': 'S1408982168.114827,VS0,VE721',
+78 silly registry.get     vary: 'Accept',
+78 silly registry.get     'content-length': '0',
+78 silly registry.get     'keep-alive': 'timeout=10, max=50',
+78 silly registry.get     connection: 'Keep-Alive' } ]
+79 verbose etag https://registry.npmjs.org/grunt-ngmin from cache
+80 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+81 silly registry.get cb [ 304,
+81 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:08 GMT',
+81 silly registry.get     server: 'Apache',
+81 silly registry.get     via: '1.1 varnish',
+81 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:56:08 GMT',
+81 silly registry.get     'cache-control': 'max-age=60',
+81 silly registry.get     etag: '"2OTHKWP6Q1MANDP7DGL0WM45N"',
+81 silly registry.get     'x-served-by': 'cache-hk92-HKG',
+81 silly registry.get     'x-cache': 'HIT',
+81 silly registry.get     'x-cache-hits': '1',
+81 silly registry.get     'x-timer': 'S1408982168.116812,VS0,VE740',
+81 silly registry.get     vary: 'Accept',
+81 silly registry.get     'content-length': '0',
+81 silly registry.get     'keep-alive': 'timeout=10, max=50',
+81 silly registry.get     connection: 'Keep-Alive' } ]
+82 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+83 silly addNameRange number 2 { name: 'grunt-ngmin', range: '=0.0.3', hasData: true }
+84 silly addNameRange versions [ 'grunt-ngmin', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+85 verbose addNamed [ 'grunt-ngmin', '0.0.3' ]
+86 verbose addNamed [ '0.0.3', '0.0.3' ]
+87 silly lockFile 129b7627-grunt-ngmin-0-0-3 grunt-ngmin@0.0.3
+88 verbose lock grunt-ngmin@0.0.3 /home/jccf/.npm/129b7627-grunt-ngmin-0-0-3.lock
+89 warn deprecated grunt-ngmin@0.0.3: use grunt-ng-annotate instead
+90 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+90 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+90 silly addNameRange   hasData: true }
+91 silly addNameRange versions [ 'grunt-contrib-imagemin',
+91 silly addNameRange   [ '0.1.0',
+91 silly addNameRange     '0.1.1',
+91 silly addNameRange     '0.1.2',
+91 silly addNameRange     '0.1.3',
+91 silly addNameRange     '0.1.4',
+91 silly addNameRange     '0.1.1-rc7',
+91 silly addNameRange     '0.1.1-rc8',
+91 silly addNameRange     '0.2.0',
+91 silly addNameRange     '0.2.1',
+91 silly addNameRange     '0.3.0',
+91 silly addNameRange     '0.4.0',
+91 silly addNameRange     '0.4.1',
+91 silly addNameRange     '0.5.0',
+91 silly addNameRange     '0.6.0',
+91 silly addNameRange     '0.6.1',
+91 silly addNameRange     '0.7.0',
+91 silly addNameRange     '0.7.1',
+91 silly addNameRange     '0.7.2',
+91 silly addNameRange     '0.8.0' ] ]
+92 verbose addNamed [ 'grunt-contrib-imagemin', '0.7.2' ]
+93 verbose addNamed [ '0.7.2', '0.7.2' ]
+94 silly lockFile babc297e-grunt-contrib-imagemin-0-7-2 grunt-contrib-imagemin@0.7.2
+95 verbose lock grunt-contrib-imagemin@0.7.2 /home/jccf/.npm/babc297e-grunt-contrib-imagemin-0-7-2.lock
+96 silly lockFile 129b7627-grunt-ngmin-0-0-3 grunt-ngmin@0.0.3
+97 silly lockFile 129b7627-grunt-ngmin-0-0-3 grunt-ngmin@0.0.3
+98 silly lockFile 13bbf674-grunt-ngmin-0-0-3 grunt-ngmin@^0.0.3
+99 silly lockFile 13bbf674-grunt-ngmin-0-0-3 grunt-ngmin@^0.0.3
+100 silly lockFile babc297e-grunt-contrib-imagemin-0-7-2 grunt-contrib-imagemin@0.7.2
+101 silly lockFile babc297e-grunt-contrib-imagemin-0-7-2 grunt-contrib-imagemin@0.7.2
+102 silly lockFile 3b24a2ed-grunt-contrib-imagemin-0-7-0 grunt-contrib-imagemin@^0.7.0
+103 silly lockFile 3b24a2ed-grunt-contrib-imagemin-0-7-0 grunt-contrib-imagemin@^0.7.0
+104 silly resolved [ { name: 'grunt-ngmin',
+104 silly resolved     version: '0.0.3',
+104 silly resolved     description: 'Grunt task for minifying AngularJS projects',
+104 silly resolved     main: 'Gruntfile.js',
+104 silly resolved     scripts: { test: 'grunt test' },
+104 silly resolved     devDependencies:
+104 silly resolved      { grunt: '~0.4.0',
+104 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+104 silly resolved        'grunt-contrib-clean': '~0.4.0',
+104 silly resolved        'grunt-mocha-cli': '~1.0.1',
+104 silly resolved        should: '~1.2.2',
+104 silly resolved        'grunt-release': '~0.3.1' },
+104 silly resolved     repository: { type: 'git', url: 'git://github.com/btford/grunt-ngmin' },
+104 silly resolved     keywords: [ 'grunt', 'angular', 'angularjs', 'minify' ],
+104 silly resolved     author: { name: 'Brian Ford' },
+104 silly resolved     license: 'BSD',
+104 silly resolved     dependencies: { ngmin: '~0.4.0' },
+104 silly resolved     bugs: { url: 'https://github.com/btford/grunt-ngmin/issues' },
+104 silly resolved     _id: 'grunt-ngmin@0.0.3',
+104 silly resolved     dist:
+104 silly resolved      { shasum: 'bbc09ef4fe7591d674cc5324f7a5e459d92711d7',
+104 silly resolved        tarball: 'http://registry.npmjs.org/grunt-ngmin/-/grunt-ngmin-0.0.3.tgz' },
+104 silly resolved     _from: 'grunt-ngmin@^0.0.3',
+104 silly resolved     _npmVersion: '1.2.32',
+104 silly resolved     _npmUser: { name: 'btford', email: 'briantford@gmail.com' },
+104 silly resolved     maintainers: [ [Object], [Object] ],
+104 silly resolved     deprecated: 'use grunt-ng-annotate instead',
+104 silly resolved     directories: {},
+104 silly resolved     _shasum: 'bbc09ef4fe7591d674cc5324f7a5e459d92711d7',
+104 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-ngmin/-/grunt-ngmin-0.0.3.tgz',
+104 silly resolved     readme: 'ERROR: No README data found!',
+104 silly resolved     homepage: 'https://github.com/btford/grunt-ngmin' },
+104 silly resolved   { name: 'grunt-contrib-imagemin',
+104 silly resolved     description: 'Minify images',
+104 silly resolved     version: '0.7.2',
+104 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+104 silly resolved     repository:
+104 silly resolved      { type: 'git',
+104 silly resolved        url: 'https://github.com/gruntjs/grunt-contrib-imagemin' },
+104 silly resolved     licenses: [ [Object] ],
+104 silly resolved     engines: { node: '>=0.10.0' },
+104 silly resolved     scripts: { test: 'grunt test' },
+104 silly resolved     dependencies:
+104 silly resolved      { async: '^0.7.0',
+104 silly resolved        chalk: '^0.4.0',
+104 silly resolved        imagemin: '^0.4.5',
+104 silly resolved        'pretty-bytes': '^0.1.0' },
+104 silly resolved     devDependencies:
+104 silly resolved      { grunt: '^0.4.0',
+104 silly resolved        'grunt-contrib-clean': '^0.5.0',
+104 silly resolved        'grunt-contrib-internal': '^0.4.6',
+104 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+104 silly resolved        'grunt-contrib-nodeunit': '^0.3.3',
+104 silly resolved        'time-grunt': '^0.3.1' },
+104 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+104 silly resolved     keywords:
+104 silly resolved      [ 'gruntplugin',
+104 silly resolved        'compress',
+104 silly resolved        'gif',
+104 silly resolved        'image',
+104 silly resolved        'img',
+104 silly resolved        'jpeg',
+104 silly resolved        'jpg',
+104 silly resolved        'minify',
+104 silly resolved        'png' ],
+104 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+104 silly resolved     contributors:
+104 silly resolved      [ [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object],
+104 silly resolved        [Object] ],
+104 silly resolved     gitHead: 'ce5074b299e64e009d1abdc310a6af281f3fc1f0',
+104 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-imagemin/issues' },
+104 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-imagemin',
+104 silly resolved     _id: 'grunt-contrib-imagemin@0.7.2',
+104 silly resolved     _shasum: 'f8fd90e2097fbc9196ffb707cef3dcbe40fa1c7b',
+104 silly resolved     _from: 'grunt-contrib-imagemin@^0.7.0',
+104 silly resolved     _npmVersion: '1.4.23',
+104 silly resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+104 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+104 silly resolved     dist:
+104 silly resolved      { shasum: 'f8fd90e2097fbc9196ffb707cef3dcbe40fa1c7b',
+104 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.7.2.tgz' },
+104 silly resolved     directories: {},
+104 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.7.2.tgz',
+104 silly resolved     readme: 'ERROR: No README data found!' } ]
+105 info install grunt-ngmin@0.0.3 into /home/jccf/workspace/ang-news
+106 info install grunt-contrib-imagemin@0.7.2 into /home/jccf/workspace/ang-news
+107 info installOne grunt-ngmin@0.0.3
+108 info installOne grunt-contrib-imagemin@0.7.2
+109 verbose node_modules/grunt-ngmin unbuild
+110 verbose node_modules/grunt-contrib-imagemin unbuild
+111 verbose tar unpack /home/jccf/.npm/grunt-ngmin/0.0.3/package.tgz
+112 silly lockFile 6c1c40fa-ng-news-node-modules-grunt-ngmin tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin
+113 verbose lock tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin /home/jccf/.npm/6c1c40fa-ng-news-node-modules-grunt-ngmin.lock
+114 silly lockFile 68e82e3d-pm-grunt-ngmin-0-0-3-package-tgz tar:///home/jccf/.npm/grunt-ngmin/0.0.3/package.tgz
+115 verbose lock tar:///home/jccf/.npm/grunt-ngmin/0.0.3/package.tgz /home/jccf/.npm/68e82e3d-pm-grunt-ngmin-0-0-3-package-tgz.lock
+116 verbose tar unpack /home/jccf/.npm/grunt-contrib-imagemin/0.7.2/package.tgz
+117 silly lockFile 1cf1beb9-e-modules-grunt-contrib-imagemin tar:///home/jccf/workspace/ang-news/node_modules/grunt-contrib-imagemin
+118 verbose lock tar:///home/jccf/workspace/ang-news/node_modules/grunt-contrib-imagemin /home/jccf/.npm/1cf1beb9-e-modules-grunt-contrib-imagemin.lock
+119 silly lockFile 7c4d3db7-ntrib-imagemin-0-7-2-package-tgz tar:///home/jccf/.npm/grunt-contrib-imagemin/0.7.2/package.tgz
+120 verbose lock tar:///home/jccf/.npm/grunt-contrib-imagemin/0.7.2/package.tgz /home/jccf/.npm/7c4d3db7-ntrib-imagemin-0-7-2-package-tgz.lock
+121 silly gunzTarPerm modes [ '775', '664' ]
+122 silly gunzTarPerm modes [ '775', '664' ]
+123 silly gunzTarPerm extractEntry package.json
+124 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+125 silly gunzTarPerm extractEntry package.json
+126 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+127 silly gunzTarPerm extractEntry .npmignore
+128 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+129 silly gunzTarPerm extractEntry README.md
+130 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+131 silly gunzTarPerm extractEntry README.md
+132 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+133 silly gunzTarPerm extractEntry LICENSE-MIT
+134 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 436 ]
+135 silly gunzTarPerm extractEntry Gruntfile.js
+136 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 436 ]
+137 silly gunzTarPerm extractEntry tasks/ngmin.js
+138 silly gunzTarPerm modified mode [ 'tasks/ngmin.js', 420, 436 ]
+139 silly gunzTarPerm extractEntry tasks/imagemin.js
+140 silly gunzTarPerm modified mode [ 'tasks/imagemin.js', 420, 436 ]
+141 silly gunzTarPerm extractEntry test/grunt-ngmin-test.js
+142 silly gunzTarPerm modified mode [ 'test/grunt-ngmin-test.js', 420, 436 ]
+143 silly gunzTarPerm extractEntry test/src/controllers/one.js
+144 silly gunzTarPerm modified mode [ 'test/src/controllers/one.js', 420, 436 ]
+145 silly gunzTarPerm extractEntry test/src/directives/one.js
+146 silly gunzTarPerm modified mode [ 'test/src/directives/one.js', 420, 436 ]
+147 silly lockFile 1cf1beb9-e-modules-grunt-contrib-imagemin tar:///home/jccf/workspace/ang-news/node_modules/grunt-contrib-imagemin
+148 silly lockFile 1cf1beb9-e-modules-grunt-contrib-imagemin tar:///home/jccf/workspace/ang-news/node_modules/grunt-contrib-imagemin
+149 silly lockFile 7c4d3db7-ntrib-imagemin-0-7-2-package-tgz tar:///home/jccf/.npm/grunt-contrib-imagemin/0.7.2/package.tgz
+150 silly lockFile 7c4d3db7-ntrib-imagemin-0-7-2-package-tgz tar:///home/jccf/.npm/grunt-contrib-imagemin/0.7.2/package.tgz
+151 info preinstall grunt-contrib-imagemin@0.7.2
+152 verbose readDependencies using package.json deps
+153 verbose readDependencies using package.json deps
+154 verbose cache add [ 'async@^0.7.0', null ]
+155 verbose cache add name=undefined spec="async@^0.7.0" args=["async@^0.7.0",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'async@^0.7.0',
+156 verbose parsed url   path: 'async@^0.7.0',
+156 verbose parsed url   href: 'async@^0.7.0' }
+157 verbose cache add [ 'chalk@^0.4.0', null ]
+158 verbose cache add name=undefined spec="chalk@^0.4.0" args=["chalk@^0.4.0",null]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: 'chalk@^0.4.0',
+159 verbose parsed url   path: 'chalk@^0.4.0',
+159 verbose parsed url   href: 'chalk@^0.4.0' }
+160 verbose cache add name="async" spec="^0.7.0" args=["async","^0.7.0"]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: '^0.7.0',
+161 verbose parsed url   path: '^0.7.0',
+161 verbose parsed url   href: '^0.7.0' }
+162 verbose addNamed [ 'async', '^0.7.0' ]
+163 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+164 silly lockFile 7d27af2a-async-0-7-0 async@^0.7.0
+165 verbose lock async@^0.7.0 /home/jccf/.npm/7d27af2a-async-0-7-0.lock
+166 verbose cache add name="chalk" spec="^0.4.0" args=["chalk","^0.4.0"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '^0.4.0',
+167 verbose parsed url   path: '^0.4.0',
+167 verbose parsed url   href: '^0.4.0' }
+168 verbose addNamed [ 'chalk', '^0.4.0' ]
+169 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+170 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+171 verbose lock chalk@^0.4.0 /home/jccf/.npm/b2f4396d-chalk-0-4-0.lock
+172 verbose cache add [ 'imagemin@^0.4.5', null ]
+173 verbose cache add name=undefined spec="imagemin@^0.4.5" args=["imagemin@^0.4.5",null]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: 'imagemin@^0.4.5',
+174 verbose parsed url   path: 'imagemin@^0.4.5',
+174 verbose parsed url   href: 'imagemin@^0.4.5' }
+175 verbose cache add [ 'pretty-bytes@^0.1.0', null ]
+176 verbose cache add name=undefined spec="pretty-bytes@^0.1.0" args=["pretty-bytes@^0.1.0",null]
+177 verbose parsed url { protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: 'pretty-bytes@^0.1.0',
+177 verbose parsed url   path: 'pretty-bytes@^0.1.0',
+177 verbose parsed url   href: 'pretty-bytes@^0.1.0' }
+178 verbose cache add name="imagemin" spec="^0.4.5" args=["imagemin","^0.4.5"]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: '^0.4.5',
+179 verbose parsed url   path: '^0.4.5',
+179 verbose parsed url   href: '^0.4.5' }
+180 verbose addNamed [ 'imagemin', '^0.4.5' ]
+181 verbose addNamed [ null, '>=0.4.5-0 <0.5.0-0' ]
+182 silly lockFile 8cb07714-imagemin-0-4-5 imagemin@^0.4.5
+183 verbose lock imagemin@^0.4.5 /home/jccf/.npm/8cb07714-imagemin-0-4-5.lock
+184 verbose cache add name="pretty-bytes" spec="^0.1.0" args=["pretty-bytes","^0.1.0"]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '^0.1.0',
+185 verbose parsed url   path: '^0.1.0',
+185 verbose parsed url   href: '^0.1.0' }
+186 verbose addNamed [ 'pretty-bytes', '^0.1.0' ]
+187 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+188 silly lockFile e9c8a3c5-pretty-bytes-0-1-0 pretty-bytes@^0.1.0
+189 verbose lock pretty-bytes@^0.1.0 /home/jccf/.npm/e9c8a3c5-pretty-bytes-0-1-0.lock
+190 silly addNameRange { name: 'async', range: '>=0.7.0-0 <0.8.0-0', hasData: false }
+191 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+192 silly addNameRange { name: 'imagemin', range: '>=0.4.5-0 <0.5.0-0', hasData: false }
+193 silly addNameRange { name: 'pretty-bytes',
+193 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+193 silly addNameRange   hasData: false }
+194 verbose request where is /async
+195 verbose request registry https://registry.npmjs.org/
+196 verbose url raw /async
+197 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+198 verbose url resolved https://registry.npmjs.org/async
+199 verbose request where is https://registry.npmjs.org/async
+200 info trying registry request attempt 1 at 23:56:09
+201 verbose etag "897AKOXOUGIU9QBDE25EK5KRB"
+202 http GET https://registry.npmjs.org/async
+203 verbose request where is /chalk
+204 verbose request registry https://registry.npmjs.org/
+205 verbose url raw /chalk
+206 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+207 verbose url resolved https://registry.npmjs.org/chalk
+208 verbose request where is https://registry.npmjs.org/chalk
+209 info trying registry request attempt 1 at 23:56:09
+210 verbose etag "AYH9Z5HC7LUZSYM4UCBJJDII5"
+211 http GET https://registry.npmjs.org/chalk
+212 verbose request where is /pretty-bytes
+213 verbose request registry https://registry.npmjs.org/
+214 verbose url raw /pretty-bytes
+215 verbose url resolving [ 'https://registry.npmjs.org/', './pretty-bytes' ]
+216 verbose url resolved https://registry.npmjs.org/pretty-bytes
+217 verbose request where is https://registry.npmjs.org/pretty-bytes
+218 info trying registry request attempt 1 at 23:56:09
+219 verbose etag "39CUEZ0EL0F6FKOYN4PEMPW79"
+220 http GET https://registry.npmjs.org/pretty-bytes
+221 verbose request where is /imagemin
+222 verbose request registry https://registry.npmjs.org/
+223 verbose url raw /imagemin
+224 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin' ]
+225 verbose url resolved https://registry.npmjs.org/imagemin
+226 verbose request where is https://registry.npmjs.org/imagemin
+227 info trying registry request attempt 1 at 23:56:09
+228 verbose etag "SEPHIBJYU9D0GT8P85HO40TJ"
+229 http GET https://registry.npmjs.org/imagemin
+230 silly lockFile 6c1c40fa-ng-news-node-modules-grunt-ngmin tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin
+231 silly lockFile 6c1c40fa-ng-news-node-modules-grunt-ngmin tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin
+232 silly lockFile 68e82e3d-pm-grunt-ngmin-0-0-3-package-tgz tar:///home/jccf/.npm/grunt-ngmin/0.0.3/package.tgz
+233 silly lockFile 68e82e3d-pm-grunt-ngmin-0-0-3-package-tgz tar:///home/jccf/.npm/grunt-ngmin/0.0.3/package.tgz
+234 info preinstall grunt-ngmin@0.0.3
+235 verbose readDependencies using package.json deps
+236 verbose readDependencies using package.json deps
+237 verbose cache add [ 'ngmin@~0.4.0', null ]
+238 verbose cache add name=undefined spec="ngmin@~0.4.0" args=["ngmin@~0.4.0",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'ngmin@~0.4.0',
+239 verbose parsed url   path: 'ngmin@~0.4.0',
+239 verbose parsed url   href: 'ngmin@~0.4.0' }
+240 verbose cache add name="ngmin" spec="~0.4.0" args=["ngmin","~0.4.0"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '~0.4.0',
+241 verbose parsed url   path: '~0.4.0',
+241 verbose parsed url   href: '~0.4.0' }
+242 verbose addNamed [ 'ngmin', '~0.4.0' ]
+243 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+244 silly lockFile 29dc7218-ngmin-0-4-0 ngmin@~0.4.0
+245 verbose lock ngmin@~0.4.0 /home/jccf/.npm/29dc7218-ngmin-0-4-0.lock
+246 silly addNameRange { name: 'ngmin', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+247 http 304 https://registry.npmjs.org/async
+248 silly registry.get cb [ 304,
+248 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+248 silly registry.get     server: 'Apache',
+248 silly registry.get     via: '1.1 varnish',
+248 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:53:45 GMT',
+248 silly registry.get     'cache-control': 'max-age=60',
+248 silly registry.get     etag: '"897AKOXOUGIU9QBDE25EK5KRB"',
+248 silly registry.get     'x-served-by': 'cache-hk92-HKG',
+248 silly registry.get     'x-cache': 'HIT',
+248 silly registry.get     'x-cache-hits': '8',
+248 silly registry.get     'x-timer': 'S1408982169.245898,VS0,VE0',
+248 silly registry.get     vary: 'Accept',
+248 silly registry.get     'content-length': '0',
+248 silly registry.get     'keep-alive': 'timeout=10, max=50',
+248 silly registry.get     connection: 'Keep-Alive' } ]
+249 verbose etag https://registry.npmjs.org/async from cache
+250 verbose request where is /ngmin
+251 verbose request registry https://registry.npmjs.org/
+252 verbose url raw /ngmin
+253 verbose url resolving [ 'https://registry.npmjs.org/', './ngmin' ]
+254 verbose url resolved https://registry.npmjs.org/ngmin
+255 verbose request where is https://registry.npmjs.org/ngmin
+256 info trying registry request attempt 1 at 23:56:09
+257 verbose etag "D0ODMKGVQJWR7HLJOBMEK4KWC"
+258 http GET https://registry.npmjs.org/ngmin
+259 http 304 https://registry.npmjs.org/chalk
+260 silly registry.get cb [ 304,
+260 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+260 silly registry.get     server: 'Apache',
+260 silly registry.get     via: '1.1 varnish',
+260 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:55:42 GMT',
+260 silly registry.get     'cache-control': 'max-age=60',
+260 silly registry.get     etag: '"AYH9Z5HC7LUZSYM4UCBJJDII5"',
+260 silly registry.get     'x-served-by': 'cache-hk90-HKG',
+260 silly registry.get     'x-cache': 'HIT',
+260 silly registry.get     'x-cache-hits': '2',
+260 silly registry.get     'x-timer': 'S1408982169.264859,VS0,VE0',
+260 silly registry.get     vary: 'Accept',
+260 silly registry.get     'content-length': '0',
+260 silly registry.get     'keep-alive': 'timeout=10, max=50',
+260 silly registry.get     connection: 'Keep-Alive' } ]
+261 verbose etag https://registry.npmjs.org/chalk from cache
+262 silly addNameRange number 2 { name: 'async', range: '>=0.7.0-0 <0.8.0-0', hasData: true }
+263 silly addNameRange versions [ 'async',
+263 silly addNameRange   [ '0.1.0',
+263 silly addNameRange     '0.1.1',
+263 silly addNameRange     '0.1.2',
+263 silly addNameRange     '0.1.3',
+263 silly addNameRange     '0.1.4',
+263 silly addNameRange     '0.1.5',
+263 silly addNameRange     '0.1.6',
+263 silly addNameRange     '0.1.7',
+263 silly addNameRange     '0.1.8',
+263 silly addNameRange     '0.1.9',
+263 silly addNameRange     '0.1.10',
+263 silly addNameRange     '0.1.11',
+263 silly addNameRange     '0.1.12',
+263 silly addNameRange     '0.1.13',
+263 silly addNameRange     '0.1.14',
+263 silly addNameRange     '0.1.15',
+263 silly addNameRange     '0.1.16',
+263 silly addNameRange     '0.1.17',
+263 silly addNameRange     '0.1.18',
+263 silly addNameRange     '0.1.19',
+263 silly addNameRange     '0.1.20',
+263 silly addNameRange     '0.1.21',
+263 silly addNameRange     '0.1.22',
+263 silly addNameRange     '0.2.0',
+263 silly addNameRange     '0.2.1',
+263 silly addNameRange     '0.2.2',
+263 silly addNameRange     '0.2.3',
+263 silly addNameRange     '0.2.4',
+263 silly addNameRange     '0.2.5',
+263 silly addNameRange     '0.2.6',
+263 silly addNameRange     '0.2.7',
+263 silly addNameRange     '0.2.8',
+263 silly addNameRange     '0.2.9',
+263 silly addNameRange     '0.2.10',
+263 silly addNameRange     '0.3.0',
+263 silly addNameRange     '0.4.0',
+263 silly addNameRange     '0.4.1',
+263 silly addNameRange     '0.5.0',
+263 silly addNameRange     '0.6.0',
+263 silly addNameRange     '0.6.1',
+263 silly addNameRange     '0.6.2',
+263 silly addNameRange     '0.7.0',
+263 silly addNameRange     '0.8.0',
+263 silly addNameRange     '0.9.0' ] ]
+264 verbose addNamed [ 'async', '0.7.0' ]
+265 verbose addNamed [ '0.7.0', '0.7.0' ]
+266 silly lockFile d41a529a-async-0-7-0 async@0.7.0
+267 verbose lock async@0.7.0 /home/jccf/.npm/d41a529a-async-0-7-0.lock
+268 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+269 silly addNameRange versions [ 'chalk',
+269 silly addNameRange   [ '0.1.0',
+269 silly addNameRange     '0.1.1',
+269 silly addNameRange     '0.2.0',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.3.0',
+269 silly addNameRange     '0.4.0',
+269 silly addNameRange     '0.5.0',
+269 silly addNameRange     '0.5.1' ] ]
+270 verbose addNamed [ 'chalk', '0.4.0' ]
+271 verbose addNamed [ '0.4.0', '0.4.0' ]
+272 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+273 verbose lock chalk@0.4.0 /home/jccf/.npm/1efe4790-chalk-0-4-0.lock
+274 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+275 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+276 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+277 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+278 silly lockFile d41a529a-async-0-7-0 async@0.7.0
+279 silly lockFile d41a529a-async-0-7-0 async@0.7.0
+280 silly lockFile 7d27af2a-async-0-7-0 async@^0.7.0
+281 silly lockFile 7d27af2a-async-0-7-0 async@^0.7.0
+282 http 304 https://registry.npmjs.org/ngmin
+283 silly registry.get cb [ 304,
+283 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+283 silly registry.get     server: 'Apache',
+283 silly registry.get     via: '1.1 varnish',
+283 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:56:09 GMT',
+283 silly registry.get     'cache-control': 'max-age=60',
+283 silly registry.get     etag: '"D0ODMKGVQJWR7HLJOBMEK4KWC"',
+283 silly registry.get     'x-served-by': 'cache-hk91-HKG',
+283 silly registry.get     'x-cache': 'HIT',
+283 silly registry.get     'x-cache-hits': '1',
+283 silly registry.get     'x-timer': 'S1408982169.330034,VS0,VE0',
+283 silly registry.get     vary: 'Accept',
+283 silly registry.get     'content-length': '0',
+283 silly registry.get     'keep-alive': 'timeout=10, max=50',
+283 silly registry.get     connection: 'Keep-Alive' } ]
+284 verbose etag https://registry.npmjs.org/ngmin from cache
+285 silly addNameRange number 2 { name: 'ngmin', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+286 silly addNameRange versions [ 'ngmin',
+286 silly addNameRange   [ '0.0.1',
+286 silly addNameRange     '0.0.2',
+286 silly addNameRange     '0.0.3',
+286 silly addNameRange     '0.0.4',
+286 silly addNameRange     '0.2.0',
+286 silly addNameRange     '0.3.0',
+286 silly addNameRange     '0.3.1',
+286 silly addNameRange     '0.3.2',
+286 silly addNameRange     '0.3.3',
+286 silly addNameRange     '0.3.4',
+286 silly addNameRange     '0.3.5',
+286 silly addNameRange     '0.3.6',
+286 silly addNameRange     '0.3.7',
+286 silly addNameRange     '0.3.8',
+286 silly addNameRange     '0.4.0',
+286 silly addNameRange     '0.4.1',
+286 silly addNameRange     '0.5.0' ] ]
+287 verbose addNamed [ 'ngmin', '0.4.1' ]
+288 verbose addNamed [ '0.4.1', '0.4.1' ]
+289 silly lockFile 47835ebf-ngmin-0-4-1 ngmin@0.4.1
+290 verbose lock ngmin@0.4.1 /home/jccf/.npm/47835ebf-ngmin-0-4-1.lock
+291 warn deprecated ngmin@0.4.1: use ng-annotate instead
+292 silly lockFile 47835ebf-ngmin-0-4-1 ngmin@0.4.1
+293 silly lockFile 47835ebf-ngmin-0-4-1 ngmin@0.4.1
+294 silly lockFile 29dc7218-ngmin-0-4-0 ngmin@~0.4.0
+295 silly lockFile 29dc7218-ngmin-0-4-0 ngmin@~0.4.0
+296 silly resolved [ { name: 'ngmin',
+296 silly resolved     description: 'AngularJS Minifier',
+296 silly resolved     version: '0.4.1',
+296 silly resolved     author: { name: 'Brian Ford' },
+296 silly resolved     license: 'MIT',
+296 silly resolved     main: 'main.js',
+296 silly resolved     dependencies:
+296 silly resolved      { astral: '~0.1.0',
+296 silly resolved        'astral-angular-annotate': '~0.0.1',
+296 silly resolved        escodegen: '~0.0.15',
+296 silly resolved        esprima: '~1.0.2',
+296 silly resolved        commander: '~1.1.1',
+296 silly resolved        clone: '~0.1.6' },
+296 silly resolved     devDependencies: { should: '~1.2.1', mocha: '~1.5.0' },
+296 silly resolved     keywords: [ 'angularjs', 'minifier' ],
+296 silly resolved     repository: { type: 'git', url: 'git://github.com/btford/ngmin' },
+296 silly resolved     bin: { ngmin: './bin/ngmin' },
+296 silly resolved     scripts: { test: 'mocha' },
+296 silly resolved     bugs: { url: 'https://github.com/btford/ngmin/issues' },
+296 silly resolved     homepage: 'https://github.com/btford/ngmin',
+296 silly resolved     _id: 'ngmin@0.4.1',
+296 silly resolved     dist:
+296 silly resolved      { shasum: 'bfc1cf4b077f1574f6c0ad6e136729dad6abe19f',
+296 silly resolved        tarball: 'http://registry.npmjs.org/ngmin/-/ngmin-0.4.1.tgz' },
+296 silly resolved     _from: 'ngmin@~0.4.0',
+296 silly resolved     _npmVersion: '1.3.24',
+296 silly resolved     _npmUser: { name: 'btford', email: 'briantford@gmail.com' },
+296 silly resolved     maintainers: [ [Object] ],
+296 silly resolved     deprecated: 'use ng-annotate instead',
+296 silly resolved     directories: {},
+296 silly resolved     _shasum: 'bfc1cf4b077f1574f6c0ad6e136729dad6abe19f',
+296 silly resolved     _resolved: 'https://registry.npmjs.org/ngmin/-/ngmin-0.4.1.tgz',
+296 silly resolved     readme: 'ERROR: No README data found!' } ]
+297 info install ngmin@0.4.1 into /home/jccf/workspace/ang-news/node_modules/grunt-ngmin
+298 info installOne ngmin@0.4.1
+299 verbose node_modules/grunt-ngmin/node_modules/ngmin unbuild
+300 verbose tar unpack /home/jccf/.npm/ngmin/0.4.1/package.tgz
+301 silly lockFile ca4281b5-s-grunt-ngmin-node-modules-ngmin tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules/ngmin
+302 verbose lock tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules/ngmin /home/jccf/.npm/ca4281b5-s-grunt-ngmin-node-modules-ngmin.lock
+303 silly lockFile ae0b4a78-jccf-npm-ngmin-0-4-1-package-tgz tar:///home/jccf/.npm/ngmin/0.4.1/package.tgz
+304 verbose lock tar:///home/jccf/.npm/ngmin/0.4.1/package.tgz /home/jccf/.npm/ae0b4a78-jccf-npm-ngmin-0-4-1-package-tgz.lock
+305 silly gunzTarPerm modes [ '775', '664' ]
+306 silly gunzTarPerm extractEntry package.json
+307 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+308 silly gunzTarPerm extractEntry README.md
+309 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+310 silly gunzTarPerm extractEntry main.js
+311 silly gunzTarPerm modified mode [ 'main.js', 420, 436 ]
+312 silly gunzTarPerm extractEntry .travis.yml
+313 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+314 silly gunzTarPerm extractEntry bin/ngmin
+315 silly gunzTarPerm modified mode [ 'bin/ngmin', 493, 509 ]
+316 silly gunzTarPerm extractEntry test/chain.js
+317 silly gunzTarPerm modified mode [ 'test/chain.js', 420, 436 ]
+318 silly gunzTarPerm extractEntry test/directive.js
+319 silly gunzTarPerm modified mode [ 'test/directive.js', 420, 436 ]
+320 silly gunzTarPerm extractEntry test/loader.js
+321 silly gunzTarPerm modified mode [ 'test/loader.js', 420, 436 ]
+322 silly gunzTarPerm extractEntry test/reference.js
+323 silly gunzTarPerm modified mode [ 'test/reference.js', 420, 436 ]
+324 silly gunzTarPerm extractEntry test/route-provider.js
+325 silly gunzTarPerm modified mode [ 'test/route-provider.js', 420, 436 ]
+326 silly gunzTarPerm extractEntry test/simple.js
+327 silly gunzTarPerm modified mode [ 'test/simple.js', 420, 436 ]
+328 silly gunzTarPerm extractEntry test/util.js
+329 silly gunzTarPerm modified mode [ 'test/util.js', 420, 436 ]
+330 silly lockFile ca4281b5-s-grunt-ngmin-node-modules-ngmin tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules/ngmin
+331 silly lockFile ca4281b5-s-grunt-ngmin-node-modules-ngmin tar:///home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules/ngmin
+332 silly lockFile ae0b4a78-jccf-npm-ngmin-0-4-1-package-tgz tar:///home/jccf/.npm/ngmin/0.4.1/package.tgz
+333 silly lockFile ae0b4a78-jccf-npm-ngmin-0-4-1-package-tgz tar:///home/jccf/.npm/ngmin/0.4.1/package.tgz
+334 info preinstall ngmin@0.4.1
+335 verbose readDependencies using package.json deps
+336 verbose readDependencies using package.json deps
+337 verbose cache add [ 'astral@~0.1.0', null ]
+338 verbose cache add name=undefined spec="astral@~0.1.0" args=["astral@~0.1.0",null]
+339 verbose parsed url { protocol: null,
+339 verbose parsed url   slashes: null,
+339 verbose parsed url   auth: null,
+339 verbose parsed url   host: null,
+339 verbose parsed url   port: null,
+339 verbose parsed url   hostname: null,
+339 verbose parsed url   hash: null,
+339 verbose parsed url   search: null,
+339 verbose parsed url   query: null,
+339 verbose parsed url   pathname: 'astral@~0.1.0',
+339 verbose parsed url   path: 'astral@~0.1.0',
+339 verbose parsed url   href: 'astral@~0.1.0' }
+340 verbose cache add [ 'astral-angular-annotate@~0.0.1', null ]
+341 verbose cache add name=undefined spec="astral-angular-annotate@~0.0.1" args=["astral-angular-annotate@~0.0.1",null]
+342 verbose parsed url { protocol: null,
+342 verbose parsed url   slashes: null,
+342 verbose parsed url   auth: null,
+342 verbose parsed url   host: null,
+342 verbose parsed url   port: null,
+342 verbose parsed url   hostname: null,
+342 verbose parsed url   hash: null,
+342 verbose parsed url   search: null,
+342 verbose parsed url   query: null,
+342 verbose parsed url   pathname: 'astral-angular-annotate@~0.0.1',
+342 verbose parsed url   path: 'astral-angular-annotate@~0.0.1',
+342 verbose parsed url   href: 'astral-angular-annotate@~0.0.1' }
+343 verbose cache add name="astral" spec="~0.1.0" args=["astral","~0.1.0"]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: '~0.1.0',
+344 verbose parsed url   path: '~0.1.0',
+344 verbose parsed url   href: '~0.1.0' }
+345 verbose addNamed [ 'astral', '~0.1.0' ]
+346 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+347 silly lockFile 8a786c2e-astral-0-1-0 astral@~0.1.0
+348 verbose lock astral@~0.1.0 /home/jccf/.npm/8a786c2e-astral-0-1-0.lock
+349 verbose cache add name="astral-angular-annotate" spec="~0.0.1" args=["astral-angular-annotate","~0.0.1"]
+350 verbose parsed url { protocol: null,
+350 verbose parsed url   slashes: null,
+350 verbose parsed url   auth: null,
+350 verbose parsed url   host: null,
+350 verbose parsed url   port: null,
+350 verbose parsed url   hostname: null,
+350 verbose parsed url   hash: null,
+350 verbose parsed url   search: null,
+350 verbose parsed url   query: null,
+350 verbose parsed url   pathname: '~0.0.1',
+350 verbose parsed url   path: '~0.0.1',
+350 verbose parsed url   href: '~0.0.1' }
+351 verbose addNamed [ 'astral-angular-annotate', '~0.0.1' ]
+352 verbose addNamed [ null, '>=0.0.1-0 <0.1.0-0' ]
+353 silly lockFile 255d5822-astral-angular-annotate-0-0-1 astral-angular-annotate@~0.0.1
+354 verbose lock astral-angular-annotate@~0.0.1 /home/jccf/.npm/255d5822-astral-angular-annotate-0-0-1.lock
+355 verbose cache add [ 'escodegen@~0.0.15', null ]
+356 verbose cache add name=undefined spec="escodegen@~0.0.15" args=["escodegen@~0.0.15",null]
+357 verbose parsed url { protocol: null,
+357 verbose parsed url   slashes: null,
+357 verbose parsed url   auth: null,
+357 verbose parsed url   host: null,
+357 verbose parsed url   port: null,
+357 verbose parsed url   hostname: null,
+357 verbose parsed url   hash: null,
+357 verbose parsed url   search: null,
+357 verbose parsed url   query: null,
+357 verbose parsed url   pathname: 'escodegen@~0.0.15',
+357 verbose parsed url   path: 'escodegen@~0.0.15',
+357 verbose parsed url   href: 'escodegen@~0.0.15' }
+358 verbose cache add [ 'esprima@~1.0.2', null ]
+359 verbose cache add name=undefined spec="esprima@~1.0.2" args=["esprima@~1.0.2",null]
+360 verbose parsed url { protocol: null,
+360 verbose parsed url   slashes: null,
+360 verbose parsed url   auth: null,
+360 verbose parsed url   host: null,
+360 verbose parsed url   port: null,
+360 verbose parsed url   hostname: null,
+360 verbose parsed url   hash: null,
+360 verbose parsed url   search: null,
+360 verbose parsed url   query: null,
+360 verbose parsed url   pathname: 'esprima@~1.0.2',
+360 verbose parsed url   path: 'esprima@~1.0.2',
+360 verbose parsed url   href: 'esprima@~1.0.2' }
+361 verbose cache add [ 'commander@~1.1.1', null ]
+362 verbose cache add name=undefined spec="commander@~1.1.1" args=["commander@~1.1.1",null]
+363 verbose parsed url { protocol: null,
+363 verbose parsed url   slashes: null,
+363 verbose parsed url   auth: null,
+363 verbose parsed url   host: null,
+363 verbose parsed url   port: null,
+363 verbose parsed url   hostname: null,
+363 verbose parsed url   hash: null,
+363 verbose parsed url   search: null,
+363 verbose parsed url   query: null,
+363 verbose parsed url   pathname: 'commander@~1.1.1',
+363 verbose parsed url   path: 'commander@~1.1.1',
+363 verbose parsed url   href: 'commander@~1.1.1' }
+364 verbose cache add [ 'clone@~0.1.6', null ]
+365 verbose cache add name=undefined spec="clone@~0.1.6" args=["clone@~0.1.6",null]
+366 verbose parsed url { protocol: null,
+366 verbose parsed url   slashes: null,
+366 verbose parsed url   auth: null,
+366 verbose parsed url   host: null,
+366 verbose parsed url   port: null,
+366 verbose parsed url   hostname: null,
+366 verbose parsed url   hash: null,
+366 verbose parsed url   search: null,
+366 verbose parsed url   query: null,
+366 verbose parsed url   pathname: 'clone@~0.1.6',
+366 verbose parsed url   path: 'clone@~0.1.6',
+366 verbose parsed url   href: 'clone@~0.1.6' }
+367 verbose cache add name="escodegen" spec="~0.0.15" args=["escodegen","~0.0.15"]
+368 verbose parsed url { protocol: null,
+368 verbose parsed url   slashes: null,
+368 verbose parsed url   auth: null,
+368 verbose parsed url   host: null,
+368 verbose parsed url   port: null,
+368 verbose parsed url   hostname: null,
+368 verbose parsed url   hash: null,
+368 verbose parsed url   search: null,
+368 verbose parsed url   query: null,
+368 verbose parsed url   pathname: '~0.0.15',
+368 verbose parsed url   path: '~0.0.15',
+368 verbose parsed url   href: '~0.0.15' }
+369 verbose addNamed [ 'escodegen', '~0.0.15' ]
+370 verbose addNamed [ null, '>=0.0.15-0 <0.1.0-0' ]
+371 silly lockFile cbc3c76c-escodegen-0-0-15 escodegen@~0.0.15
+372 verbose lock escodegen@~0.0.15 /home/jccf/.npm/cbc3c76c-escodegen-0-0-15.lock
+373 verbose cache add name="esprima" spec="~1.0.2" args=["esprima","~1.0.2"]
+374 verbose parsed url { protocol: null,
+374 verbose parsed url   slashes: null,
+374 verbose parsed url   auth: null,
+374 verbose parsed url   host: null,
+374 verbose parsed url   port: null,
+374 verbose parsed url   hostname: null,
+374 verbose parsed url   hash: null,
+374 verbose parsed url   search: null,
+374 verbose parsed url   query: null,
+374 verbose parsed url   pathname: '~1.0.2',
+374 verbose parsed url   path: '~1.0.2',
+374 verbose parsed url   href: '~1.0.2' }
+375 verbose addNamed [ 'esprima', '~1.0.2' ]
+376 verbose addNamed [ null, '>=1.0.2-0 <1.1.0-0' ]
+377 silly lockFile de249c7a-esprima-1-0-2 esprima@~1.0.2
+378 verbose lock esprima@~1.0.2 /home/jccf/.npm/de249c7a-esprima-1-0-2.lock
+379 verbose cache add name="commander" spec="~1.1.1" args=["commander","~1.1.1"]
+380 verbose parsed url { protocol: null,
+380 verbose parsed url   slashes: null,
+380 verbose parsed url   auth: null,
+380 verbose parsed url   host: null,
+380 verbose parsed url   port: null,
+380 verbose parsed url   hostname: null,
+380 verbose parsed url   hash: null,
+380 verbose parsed url   search: null,
+380 verbose parsed url   query: null,
+380 verbose parsed url   pathname: '~1.1.1',
+380 verbose parsed url   path: '~1.1.1',
+380 verbose parsed url   href: '~1.1.1' }
+381 verbose addNamed [ 'commander', '~1.1.1' ]
+382 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+383 silly lockFile f812655f-commander-1-1-1 commander@~1.1.1
+384 verbose lock commander@~1.1.1 /home/jccf/.npm/f812655f-commander-1-1-1.lock
+385 verbose cache add name="clone" spec="~0.1.6" args=["clone","~0.1.6"]
+386 verbose parsed url { protocol: null,
+386 verbose parsed url   slashes: null,
+386 verbose parsed url   auth: null,
+386 verbose parsed url   host: null,
+386 verbose parsed url   port: null,
+386 verbose parsed url   hostname: null,
+386 verbose parsed url   hash: null,
+386 verbose parsed url   search: null,
+386 verbose parsed url   query: null,
+386 verbose parsed url   pathname: '~0.1.6',
+386 verbose parsed url   path: '~0.1.6',
+386 verbose parsed url   href: '~0.1.6' }
+387 verbose addNamed [ 'clone', '~0.1.6' ]
+388 verbose addNamed [ null, '>=0.1.6-0 <0.2.0-0' ]
+389 silly lockFile de9ce9f0-clone-0-1-6 clone@~0.1.6
+390 verbose lock clone@~0.1.6 /home/jccf/.npm/de9ce9f0-clone-0-1-6.lock
+391 silly addNameRange { name: 'astral', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+392 silly addNameRange { name: 'astral-angular-annotate',
+392 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
+392 silly addNameRange   hasData: false }
+393 silly addNameRange { name: 'escodegen',
+393 silly addNameRange   range: '>=0.0.15-0 <0.1.0-0',
+393 silly addNameRange   hasData: false }
+394 silly addNameRange { name: 'esprima', range: '>=1.0.2-0 <1.1.0-0', hasData: false }
+395 silly addNameRange { name: 'commander',
+395 silly addNameRange   range: '>=1.1.1-0 <1.2.0-0',
+395 silly addNameRange   hasData: false }
+396 silly addNameRange { name: 'clone', range: '>=0.1.6-0 <0.2.0-0', hasData: false }
+397 verbose request where is /astral
+398 verbose request registry https://registry.npmjs.org/
+399 verbose url raw /astral
+400 verbose url resolving [ 'https://registry.npmjs.org/', './astral' ]
+401 verbose url resolved https://registry.npmjs.org/astral
+402 verbose request where is https://registry.npmjs.org/astral
+403 info trying registry request attempt 1 at 23:56:09
+404 verbose etag "6SNSMUP8PH1FF3KEH6KDV4CTE"
+405 http GET https://registry.npmjs.org/astral
+406 verbose request where is /astral-angular-annotate
+407 verbose request registry https://registry.npmjs.org/
+408 verbose url raw /astral-angular-annotate
+409 verbose url resolving [ 'https://registry.npmjs.org/', './astral-angular-annotate' ]
+410 verbose url resolved https://registry.npmjs.org/astral-angular-annotate
+411 verbose request where is https://registry.npmjs.org/astral-angular-annotate
+412 info trying registry request attempt 1 at 23:56:09
+413 verbose etag "8JBAJHPROUA0L1YMK7D1U45M"
+414 http GET https://registry.npmjs.org/astral-angular-annotate
+415 verbose request where is /escodegen
+416 verbose request registry https://registry.npmjs.org/
+417 verbose url raw /escodegen
+418 verbose url resolving [ 'https://registry.npmjs.org/', './escodegen' ]
+419 verbose url resolved https://registry.npmjs.org/escodegen
+420 verbose request where is https://registry.npmjs.org/escodegen
+421 info trying registry request attempt 1 at 23:56:09
+422 verbose etag "6RKM8VQ2U9K1JNZNLMKHN5TFD"
+423 http GET https://registry.npmjs.org/escodegen
+424 verbose request where is /esprima
+425 verbose request registry https://registry.npmjs.org/
+426 verbose url raw /esprima
+427 verbose url resolving [ 'https://registry.npmjs.org/', './esprima' ]
+428 verbose url resolved https://registry.npmjs.org/esprima
+429 verbose request where is https://registry.npmjs.org/esprima
+430 info trying registry request attempt 1 at 23:56:09
+431 verbose etag "6DIOFYYWNFERQPT3BVV1BAKIL"
+432 http GET https://registry.npmjs.org/esprima
+433 verbose request where is /commander
+434 verbose request registry https://registry.npmjs.org/
+435 verbose url raw /commander
+436 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+437 verbose url resolved https://registry.npmjs.org/commander
+438 verbose request where is https://registry.npmjs.org/commander
+439 info trying registry request attempt 1 at 23:56:09
+440 verbose etag "8ZX7A38VAKVDH0APJGLCWQIE8"
+441 http GET https://registry.npmjs.org/commander
+442 verbose request where is /clone
+443 verbose request registry https://registry.npmjs.org/
+444 verbose url raw /clone
+445 verbose url resolving [ 'https://registry.npmjs.org/', './clone' ]
+446 verbose url resolved https://registry.npmjs.org/clone
+447 verbose request where is https://registry.npmjs.org/clone
+448 info trying registry request attempt 1 at 23:56:09
+449 verbose etag "CNZEBLHGKPVCDVEZ45AANJNC7"
+450 http GET https://registry.npmjs.org/clone
+451 http 304 https://registry.npmjs.org/astral
+452 silly registry.get cb [ 304,
+452 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+452 silly registry.get     server: 'Apache',
+452 silly registry.get     via: '1.1 varnish',
+452 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:55:35 GMT',
+452 silly registry.get     'cache-control': 'max-age=60',
+452 silly registry.get     etag: '"6SNSMUP8PH1FF3KEH6KDV4CTE"',
+452 silly registry.get     'x-served-by': 'cache-hk91-HKG',
+452 silly registry.get     'x-cache': 'HIT',
+452 silly registry.get     'x-cache-hits': '2',
+452 silly registry.get     'x-timer': 'S1408982169.518257,VS0,VE0',
+452 silly registry.get     vary: 'Accept',
+452 silly registry.get     'content-length': '0',
+452 silly registry.get     'keep-alive': 'timeout=10, max=50',
+452 silly registry.get     connection: 'Keep-Alive' } ]
+453 verbose etag https://registry.npmjs.org/astral from cache
+454 http 304 https://registry.npmjs.org/astral-angular-annotate
+455 silly registry.get cb [ 304,
+455 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+455 silly registry.get     server: 'Apache',
+455 silly registry.get     via: '1.1 varnish',
+455 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:55:35 GMT',
+455 silly registry.get     'cache-control': 'max-age=60',
+455 silly registry.get     etag: '"8JBAJHPROUA0L1YMK7D1U45M"',
+455 silly registry.get     'x-served-by': 'cache-hk93-HKG',
+455 silly registry.get     'x-cache': 'HIT',
+455 silly registry.get     'x-cache-hits': '1',
+455 silly registry.get     'x-timer': 'S1408982169.521244,VS0,VE0',
+455 silly registry.get     vary: 'Accept',
+455 silly registry.get     'content-length': '0',
+455 silly registry.get     'keep-alive': 'timeout=10, max=50',
+455 silly registry.get     connection: 'Keep-Alive' } ]
+456 verbose etag https://registry.npmjs.org/astral-angular-annotate from cache
+457 http 304 https://registry.npmjs.org/esprima
+458 silly registry.get cb [ 304,
+458 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+458 silly registry.get     server: 'Apache',
+458 silly registry.get     via: '1.1 varnish',
+458 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:55:35 GMT',
+458 silly registry.get     'cache-control': 'max-age=60',
+458 silly registry.get     etag: '"6DIOFYYWNFERQPT3BVV1BAKIL"',
+458 silly registry.get     'x-served-by': 'cache-hk91-HKG',
+458 silly registry.get     'x-cache': 'HIT',
+458 silly registry.get     'x-cache-hits': '3',
+458 silly registry.get     'x-timer': 'S1408982169.528642,VS0,VE0',
+458 silly registry.get     vary: 'Accept',
+458 silly registry.get     'content-length': '0',
+458 silly registry.get     'keep-alive': 'timeout=10, max=49',
+458 silly registry.get     connection: 'Keep-Alive' } ]
+459 verbose etag https://registry.npmjs.org/esprima from cache
+460 http 304 https://registry.npmjs.org/escodegen
+461 silly registry.get cb [ 304,
+461 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+461 silly registry.get     server: 'Apache',
+461 silly registry.get     via: '1.1 varnish',
+461 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:55:33 GMT',
+461 silly registry.get     'cache-control': 'max-age=60',
+461 silly registry.get     etag: '"6RKM8VQ2U9K1JNZNLMKHN5TFD"',
+461 silly registry.get     'x-served-by': 'cache-hk92-HKG',
+461 silly registry.get     'x-cache': 'HIT',
+461 silly registry.get     'x-cache-hits': '2',
+461 silly registry.get     'x-timer': 'S1408982169.530688,VS0,VE0',
+461 silly registry.get     vary: 'Accept',
+461 silly registry.get     'content-length': '0',
+461 silly registry.get     'keep-alive': 'timeout=10, max=50',
+461 silly registry.get     connection: 'Keep-Alive' } ]
+462 verbose etag https://registry.npmjs.org/escodegen from cache
+463 http 304 https://registry.npmjs.org/commander
+464 silly registry.get cb [ 304,
+464 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+464 silly registry.get     server: 'Apache',
+464 silly registry.get     via: '1.1 varnish',
+464 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:56:09 GMT',
+464 silly registry.get     'cache-control': 'max-age=60',
+464 silly registry.get     etag: '"8ZX7A38VAKVDH0APJGLCWQIE8"',
+464 silly registry.get     'x-served-by': 'cache-hk93-HKG',
+464 silly registry.get     'x-cache': 'HIT',
+464 silly registry.get     'x-cache-hits': '1',
+464 silly registry.get     'x-timer': 'S1408982169.530949,VS0,VE0',
+464 silly registry.get     vary: 'Accept',
+464 silly registry.get     'content-length': '0',
+464 silly registry.get     'keep-alive': 'timeout=10, max=49',
+464 silly registry.get     connection: 'Keep-Alive' } ]
+465 verbose etag https://registry.npmjs.org/commander from cache
+466 http 304 https://registry.npmjs.org/clone
+467 silly registry.get cb [ 304,
+467 silly registry.get   { date: 'Mon, 25 Aug 2014 15:56:09 GMT',
+467 silly registry.get     server: 'Apache',
+467 silly registry.get     via: '1.1 varnish',
+467 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 15:55:35 GMT',
+467 silly registry.get     'cache-control': 'max-age=60',
+467 silly registry.get     etag: '"CNZEBLHGKPVCDVEZ45AANJNC7"',
+467 silly registry.get     'x-served-by': 'cache-hk91-HKG',
+467 silly registry.get     'x-cache': 'HIT',
+467 silly registry.get     'x-cache-hits': '2',
+467 silly registry.get     'x-timer': 'S1408982169.536017,VS0,VE0',
+467 silly registry.get     vary: 'Accept',
+467 silly registry.get     'content-length': '0',
+467 silly registry.get     'keep-alive': 'timeout=10, max=48',
+467 silly registry.get     connection: 'Keep-Alive' } ]
+468 verbose etag https://registry.npmjs.org/clone from cache
+469 silly addNameRange number 2 { name: 'astral', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+470 silly addNameRange versions [ 'astral', [ '0.0.1', '0.1.0' ] ]
+471 verbose addNamed [ 'astral', '0.1.0' ]
+472 verbose addNamed [ '0.1.0', '0.1.0' ]
+473 silly lockFile fae66955-astral-0-1-0 astral@0.1.0
+474 verbose lock astral@0.1.0 /home/jccf/.npm/fae66955-astral-0-1-0.lock
+475 silly addNameRange number 2 { name: 'astral-angular-annotate',
+475 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
+475 silly addNameRange   hasData: true }
+476 silly addNameRange versions [ 'astral-angular-annotate', [ '0.0.1', '0.0.2' ] ]
+477 verbose addNamed [ 'astral-angular-annotate', '0.0.2' ]
+478 verbose addNamed [ '0.0.2', '0.0.2' ]
+479 silly lockFile cf538833-astral-angular-annotate-0-0-2 astral-angular-annotate@0.0.2
+480 verbose lock astral-angular-annotate@0.0.2 /home/jccf/.npm/cf538833-astral-angular-annotate-0-0-2.lock
+481 silly addNameRange number 2 { name: 'esprima', range: '>=1.0.2-0 <1.1.0-0', hasData: true }
+482 silly addNameRange versions [ 'esprima',
+482 silly addNameRange   [ '0.7.0',
+482 silly addNameRange     '0.8.0',
+482 silly addNameRange     '0.8.1',
+482 silly addNameRange     '0.8.2',
+482 silly addNameRange     '0.9.0',
+482 silly addNameRange     '0.9.1',
+482 silly addNameRange     '0.9.2',
+482 silly addNameRange     '0.9.3',
+482 silly addNameRange     '0.9.4',
+482 silly addNameRange     '0.9.5',
+482 silly addNameRange     '0.9.6',
+482 silly addNameRange     '0.9.7',
+482 silly addNameRange     '0.9.8',
+482 silly addNameRange     '0.9.9',
+482 silly addNameRange     '1.0.0',
+482 silly addNameRange     '1.0.1',
+482 silly addNameRange     '1.0.2',
+482 silly addNameRange     '1.0.3',
+482 silly addNameRange     '1.0.4',
+482 silly addNameRange     '1.1.0',
+482 silly addNameRange     '1.1.1',
+482 silly addNameRange     '1.2.0',
+482 silly addNameRange     '1.2.1',
+482 silly addNameRange     '1.2.2' ] ]
+483 verbose addNamed [ 'esprima', '1.0.4' ]
+484 verbose addNamed [ '1.0.4', '1.0.4' ]
+485 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+486 verbose lock esprima@1.0.4 /home/jccf/.npm/758953aa-esprima-1-0-4.lock
+487 silly addNameRange number 2 { name: 'escodegen',
+487 silly addNameRange   range: '>=0.0.15-0 <0.1.0-0',
+487 silly addNameRange   hasData: true }
+488 silly addNameRange versions [ 'escodegen',
+488 silly addNameRange   [ '0.0.1',
+488 silly addNameRange     '0.0.2',
+488 silly addNameRange     '0.0.3',
+488 silly addNameRange     '0.0.4',
+488 silly addNameRange     '0.0.5',
+488 silly addNameRange     '0.0.6',
+488 silly addNameRange     '0.0.7',
+488 silly addNameRange     '0.0.8',
+488 silly addNameRange     '0.0.9',
+488 silly addNameRange     '0.0.10',
+488 silly addNameRange     '0.0.11',
+488 silly addNameRange     '0.0.12',
+488 silly addNameRange     '0.0.14',
+488 silly addNameRange     '0.0.15',
+488 silly addNameRange     '0.0.16',
+488 silly addNameRange     '0.0.17',
+488 silly addNameRange     '0.0.18',
+488 silly addNameRange     '0.0.19',
+488 silly addNameRange     '0.0.20',
+488 silly addNameRange     '0.0.21',
+488 silly addNameRange     '0.0.22',
+488 silly addNameRange     '0.0.23',
+488 silly addNameRange     '0.0.24',
+488 silly addNameRange     '0.0.25',
+488 silly addNameRange     '0.0.26',
+488 silly addNameRange     '0.0.27',
+488 silly addNameRange     '0.0.28',
+488 silly addNameRange     '1.0.0',
+488 silly addNameRange     '1.0.1',
+488 silly addNameRange     '1.1.0',
+488 silly addNameRange     '1.2.0',
+488 silly addNameRange     '1.3.0',
+488 silly addNameRange     '1.3.1',
+488 silly addNameRange     '1.3.2',
+488 silly addNameRange     '1.3.3' ] ]
+489 verbose addNamed [ 'escodegen', '0.0.28' ]
+490 verbose addNamed [ '0.0.28', '0.0.28' ]
+491 silly lockFile cb311dc7-escodegen-0-0-28 escodegen@0.0.28
+492 verbose lock escodegen@0.0.28 /home/jccf/.npm/cb311dc7-escodegen-0-0-28.lock
+493 silly addNameRange number 2 { name: 'commander', range: '>=1.1.1-0 <1.2.0-0', hasData: true }
+494 silly addNameRange versions [ 'commander',
+494 silly addNameRange   [ '0.0.1',
+494 silly addNameRange     '0.0.3',
+494 silly addNameRange     '0.0.4',
+494 silly addNameRange     '0.0.5',
+494 silly addNameRange     '0.1.0',
+494 silly addNameRange     '0.2.0',
+494 silly addNameRange     '0.2.1',
+494 silly addNameRange     '0.3.0',
+494 silly addNameRange     '0.3.1',
+494 silly addNameRange     '0.3.2',
+494 silly addNameRange     '0.3.3',
+494 silly addNameRange     '0.4.0',
+494 silly addNameRange     '0.4.1',
+494 silly addNameRange     '0.4.2',
+494 silly addNameRange     '0.4.3',
+494 silly addNameRange     '0.5.0',
+494 silly addNameRange     '0.5.1',
+494 silly addNameRange     '0.6.0',
+494 silly addNameRange     '0.6.1',
+494 silly addNameRange     '0.5.2',
+494 silly addNameRange     '1.0.0',
+494 silly addNameRange     '1.0.1',
+494 silly addNameRange     '1.0.2',
+494 silly addNameRange     '1.0.3',
+494 silly addNameRange     '1.0.4',
+494 silly addNameRange     '1.0.5',
+494 silly addNameRange     '1.1.0',
+494 silly addNameRange     '1.1.1',
+494 silly addNameRange     '1.2.0',
+494 silly addNameRange     '1.3.0',
+494 silly addNameRange     '1.3.1',
+494 silly addNameRange     '1.3.2',
+494 silly addNameRange     '2.0.0',
+494 silly addNameRange     '2.1.0',
+494 silly addNameRange     '2.2.0',
+494 silly addNameRange     '2.3.0' ] ]
+495 verbose addNamed [ 'commander', '1.1.1' ]
+496 verbose addNamed [ '1.1.1', '1.1.1' ]
+497 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+498 verbose lock commander@1.1.1 /home/jccf/.npm/e890879a-commander-1-1-1.lock
+499 silly addNameRange number 2 { name: 'clone', range: '>=0.1.6-0 <0.2.0-0', hasData: true }
+500 silly addNameRange versions [ 'clone',
+500 silly addNameRange   [ '0.0.0',
+500 silly addNameRange     '0.0.1',
+500 silly addNameRange     '0.0.2',
+500 silly addNameRange     '0.0.3',
+500 silly addNameRange     '0.0.4',
+500 silly addNameRange     '0.0.5',
+500 silly addNameRange     '0.0.6',
+500 silly addNameRange     '0.0.7',
+500 silly addNameRange     '0.1.0',
+500 silly addNameRange     '0.1.1',
+500 silly addNameRange     '0.1.2',
+500 silly addNameRange     '0.1.3',
+500 silly addNameRange     '0.1.4',
+500 silly addNameRange     '0.1.5',
+500 silly addNameRange     '0.1.6',
+500 silly addNameRange     '0.1.7',
+500 silly addNameRange     '0.1.8',
+500 silly addNameRange     '0.1.9',
+500 silly addNameRange     '0.1.10',
+500 silly addNameRange     '0.1.11',
+500 silly addNameRange     '0.1.12',
+500 silly addNameRange     '0.1.13',
+500 silly addNameRange     '0.1.14',
+500 silly addNameRange     '0.1.15',
+500 silly addNameRange     '0.1.16',
+500 silly addNameRange     '0.1.17',
+500 silly addNameRange     '0.1.18' ] ]
+501 verbose addNamed [ 'clone', '0.1.18' ]
+502 verbose addNamed [ '0.1.18', '0.1.18' ]
+503 silly lockFile d9e5180e-clone-0-1-18 clone@0.1.18
+504 verbose lock clone@0.1.18 /home/jccf/.npm/d9e5180e-clone-0-1-18.lock
+505 silly lockFile cfeb77b0-g-escodegen-escodegen-0-0-28-tgz https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz
+506 verbose lock https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz /home/jccf/.npm/cfeb77b0-g-escodegen-escodegen-0-0-28-tgz.lock
+507 silly lockFile fae66955-astral-0-1-0 astral@0.1.0
+508 silly lockFile fae66955-astral-0-1-0 astral@0.1.0
+509 verbose addRemoteTarball [ 'https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz',
+509 verbose addRemoteTarball   '0e4ff1715f328775d6cab51ac44a406cd7abffd3' ]
+510 silly lockFile 8a786c2e-astral-0-1-0 astral@~0.1.0
+511 silly lockFile 8a786c2e-astral-0-1-0 astral@~0.1.0
+512 silly lockFile cf538833-astral-angular-annotate-0-0-2 astral-angular-annotate@0.0.2
+513 silly lockFile cf538833-astral-angular-annotate-0-0-2 astral-angular-annotate@0.0.2
+514 silly lockFile 255d5822-astral-angular-annotate-0-0-1 astral-angular-annotate@~0.0.1
+515 silly lockFile 255d5822-astral-angular-annotate-0-0-1 astral-angular-annotate@~0.0.1
+516 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+517 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+518 silly lockFile de249c7a-esprima-1-0-2 esprima@~1.0.2
+519 silly lockFile de249c7a-esprima-1-0-2 esprima@~1.0.2
+520 info retry fetch attempt 1 at 23:56:09
+521 verbose fetch to= /tmp/npm-22457-Pgal5kMk/registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz
+522 http GET https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz
+523 http 200 https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz
+524 silly lockFile cfeb77b0-g-escodegen-escodegen-0-0-28-tgz https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz
+525 silly lockFile cfeb77b0-g-escodegen-escodegen-0-0-28-tgz https://registry.npmjs.org/escodegen/-/escodegen-0.0.28.tgz
+526 silly lockFile cb311dc7-escodegen-0-0-28 escodegen@0.0.28
+527 silly lockFile cb311dc7-escodegen-0-0-28 escodegen@0.0.28
+528 silly lockFile cbc3c76c-escodegen-0-0-15 escodegen@~0.0.15
+529 silly lockFile cbc3c76c-escodegen-0-0-15 escodegen@~0.0.15
+530 verbose about to build /home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules/ngmin
+531 verbose node_modules/grunt-ngmin/node_modules/ngmin unbuild
+532 info preuninstall ngmin@0.4.1
+533 info uninstall ngmin@0.4.1
+534 verbose false,/home/jccf/workspace/ang-news/node_modules,/home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules unbuild ngmin@0.4.1
+535 verbose /home/jccf/workspace/ang-news/node_modules/grunt-ngmin/node_modules/.bin,[object Object] binRoot
+536 info postuninstall ngmin@0.4.1
+537 verbose about to build /home/jccf/workspace/ang-news/node_modules/grunt-ngmin
+538 verbose node_modules/grunt-ngmin unbuild
+539 info preuninstall grunt-ngmin@0.0.3
+540 info uninstall grunt-ngmin@0.0.3
+541 verbose true,/home/jccf/workspace/ang-news/node_modules,/home/jccf/workspace/ang-news/node_modules unbuild grunt-ngmin@0.0.3
+542 info postuninstall grunt-ngmin@0.0.3
+543 error Error: EACCES, mkdir '/home/jccf/.npm/escodegen/0.0.28'
+543 error  { [Error: EACCES, mkdir '/home/jccf/.npm/escodegen/0.0.28']
+543 error   errno: 3,
+543 error   code: 'EACCES',
+543 error   path: '/home/jccf/.npm/escodegen/0.0.28',
+543 error   parent: 'ngmin' }
+544 error Please try running this command again as root/Administrator.
+545 error System Linux 3.13.0-34-generic
+546 error command "node" "/usr/bin/npm" "install"
+547 error cwd /home/jccf/workspace/ang-news
+548 error node -v v0.10.31
+549 error npm -v 1.4.24
+550 error path /home/jccf/.npm/escodegen/0.0.28
+551 error code EACCES
+552 error errno 3
+553 error stack Error: EACCES, mkdir '/home/jccf/.npm/escodegen/0.0.28'
+554 verbose exit [ 3, true ]
